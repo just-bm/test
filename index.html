@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balamurugan T | Portfolio</title>
+  
+  <style>
+    /* ---------- General Reset ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 80px; /* space for navbar */
+    }
+
+    a {
+      color: #00ffaf;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #00ffaa;
+      text-decoration: underline;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background: #30363d;
+      margin: 40px 0;
+      width: 80%;
+    }
+
+    /* ---------- Navbar ---------- */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(13, 17, 23, 0.9);
+      backdrop-filter: blur(10px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      padding: 15px 10px;
+      border-bottom: 1px solid #30363d;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #e6edf3;
+      font-weight: 500;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    nav a:hover {
+      color: #00ffaa;
+    }
+
+    /* ---------- Header ---------- */
+    .header img.banner {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00ffaa;
+      margin-bottom: 15px;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      margin-bottom: 5px;
+    }
+
+    .header h3 {
+      font-weight: normal;
+      color: #9ba3af;
+      margin-bottom: 20px;
+    }
+
+    /* ---------- Section Titles ---------- */
+    h2 {
+      color: #00ffaa;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    /* ---------- Center Content ---------- */
+    .center {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    /* ---------- About Section ---------- */
+    .about {
+      max-width: 700px;
+      text-align: left;
+      margin: 0 auto;
+      color: #c9d1d9;
+    }
+
+    .about li {
+      margin-bottom: 8px;
+      list-style: none;
+    }
+
+    .about li::before {
+      content: "💡 ";
+    }
+
+    /* ---------- Skills Section ---------- */
+    .skills img {
+      margin: 5px;
+      /*<---height: 35px;---->  */
+    }
+
+    .skills h3 {
+      margin-top: 15px;
+      color: #9ba3af;
+    }
+
+    .allimg {
+      height: 150px;
+      width: auto;
+      margin-top: 15px;
+      border-radius: 8px;
+    }
+
+    /* ---------- Stats Section ---------- */
+    .stats img {
+      margin: 10px;
+      border-radius: 10px;
+      max-width: 100%;
+    }
+
+    /* ---------- Footer ---------- */
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #9ba3af;
+      font-size: 0.9rem;
+    }
+
+    footer strong {
+      color: #00ffaa;
+    }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 600px) {
+      nav {
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      .profile-pic {
+        width: 130px;
+        height: 130px;
+      }
+      .header h1 {
+        font-size: 1.6rem;
+      }
+      .header h3 {
+        font-size: 1rem;
+      }
+      .allimg {
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#stats">Stats</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Header -->
+  <div id="home" class="header center">
+    <img src="https://github.com/Balaji-R-05/Balaji-R-05/raw/main/assets/header.png" class="banner" alt="Banner Image" />
+    <a href="https://github.com/just-bm"><img src="https://github.com/just-bm.png" alt="Balamurugan T" class="profile-pic" /></a>
+    <h1>✨ Balamurugan T ✨</h1>
+    <h3>Full-Stack Developer & Software Engineering Enthusiast</h3>
+
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=00FFAF&center=true&vCenter=true&width=550&lines=Full-Stack+Developer;Machine+Learning+Enthusiast;Lifelong+Learner;Open+to+Opportunities!" alt="Typing Animation" />
+    
+    <p style="margin-top:20px;">
+      <a href="https://www.linkedin.com/in/just0bm0or0balamurugan/">LinkedIn</a> • 
+      <a href="mailto:tbalancemurugan@gmail.com">Email</a> • 
+      <a href="https://github.com/just-bm">GitHub</a> • 
+      <a href="https://leetcode.com/u/just_bm__/">LeetCode</a>
+    </p>
+  </div>
+
+  <hr>
+
+  <!-- About -->
+  <div id="about" class="about">
+    <h2>👨‍💻 About Me</h2>
+    <ul>
+      <li>Currently working on <strong>Full-Stack Web Development Projects</strong></li>
+      <li>Expanding knowledge in <strong>React.js and Modern Frameworks</strong></li>
+      <li>Looking to collaborate on <strong>Open-source Projects and Hackathons</strong></li>
+      <li>Reach me at: <a href="mailto:tbalancemurugan@gmail.com">tbalancemurugan@gmail.com</a></li>
+      <li>Fun fact: <strong>Cricket enthusiast 🏏 and tech innovation advocate</strong></li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <!-- Skills -->
+  <div id="skills" class="skills center">
+    <h2>🛠️ Technical Skills</h2>
+
+    <h3>Languages</h3>
+    <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/>
+       <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+       <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java"/>
+       <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" alt="C"/>
+    </p>
+
+    <h3>Frontend</h3>
+    <p><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"/>
+       <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3"/>
+       <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React"/>
+    </p>
+
+    <h3>Backend & Database</h3>
+    <p><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL"/>
+       <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white" alt="MongoDB"/>
+    </p>
+
+    <h3>Tools & Technologies</h3>
+    <p><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git"/>
+       <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"/>
+       <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+    </p>
+
+    <p>
+      <img class="allimg" src="https://skillicons.dev/icons?i=python,java,c,react,mysql,mongodb,html,css,js,linux,git,vscode&theme=dark&perline=6" alt="Skills Icons" />
+    </p>
+  </div>
+
+  <hr>
+
+  <!-- GitHub Stats -->
+  <div id="stats" class="stats center">
+    <h2>📊 GitHub Statistics</h2>
+    <img src="https://github-readme-stats.vercel.app/api/?username=just-bm&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=just-bm&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=just-bm&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+    <h2>⚡ LeetCode Statistics</h2>
+    <img src="https://leetcard.jacoblin.cool/just_bm__?&font=Baloo%202&ext=heatmap" alt="LeetCode Stats" />
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p><strong>💻 Crafted with ❤️ by Balamurugan T</strong><br>
+    <em>Passionate about Technology, Innovation, and Clean Code</em></p>
+  </footer>
+
+</body>
+</html>
