@@ -73,16 +73,19 @@ nav a:hover {
     position: absolute;
     top: -0px;
     left: -0px;
+    z-index: 1;
 }
 
 .profile-pic {
+    position: relative;
     width: 180px;
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #00ffaa;
     margin-bottom: 15px;
-    margin-top: 250px;
+    margin-top: 320px;
+    z-index: 10;
 }
 
 .header h1 {
