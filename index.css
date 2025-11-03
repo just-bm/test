@@ -166,7 +166,19 @@ footer {
 footer strong {
     color: #00ffaa;
 }
-
+#resume{
+    color: #e6edf3;
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    border: #00ffaa;
+    border-style: solid;
+    border-radius: 20%;
+    border-width: 1px;
+    padding: 3px 8px;
+}
 /* ---------- Responsive ---------- */
 @media (max-width: 600px) {
     nav {
