@@ -14,7 +14,6 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 80px;
-    /* space for navbar */
 }
 
 div{
@@ -40,7 +39,6 @@ hr {
     width: 80%;
 }
 
-/* ---------- Navbar ---------- */
 nav {
     position: fixed;
     top: 0;
@@ -67,7 +65,6 @@ nav a:hover {
     color: #00ffaa;
 }
 
-/* ---------- Header ---------- */
 .header img.banner {
     width: 100%;
     border-radius: 10px;
@@ -102,20 +99,16 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* ---------- Section Titles ---------- */
 h2 {
     color: #00ffaa;
     text-align: center;
     margin-bottom: 15px;
 }
 
-/* ---------- Center Content ---------- */
 .center {
     text-align: center;
     margin: 0 auto;
 }
-
-/* ---------- About Section ---------- */
 .about {
     max-width: 700px;
     text-align: left;
@@ -132,10 +125,8 @@ h2 {
     content: "• ";
 }
 
-/* ---------- Skills Section ---------- */
 .skills img {
     margin: 5px;
-    /*<---height: 35px;---->  */
 }
 
 .skills h3 {
@@ -149,15 +140,11 @@ h2 {
     margin-top: 15px;
     border-radius: 8px;
 }
-
-/* ---------- Stats Section ---------- */
 .stats img {
     margin: 10px;
     border-radius: 10px;
     max-width: 100%;
 }
-
-/* ---------- Footer ---------- */
 footer {
     margin-top: 40px;
     text-align: center;
@@ -182,7 +169,6 @@ footer strong {
     border-width: 1px;
     padding: 3px 8px;
 }
-/* ---------- Responsive ---------- */
 @media (max-width: 600px) {
     nav {
         flex-wrap: wrap;
@@ -210,6 +196,5 @@ footer strong {
 @media (min-width: 2560px) and (max-width: 3839px) {
     .profile-pic {
         margin-top: 250px;
-        /* add your high-res specific adjustments here */
     }
 }
