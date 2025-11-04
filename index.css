@@ -17,6 +17,10 @@ body {
     /* space for navbar */
 }
 
+div{
+    padding-top: 80px;
+}
+
 a {
     color: #00ffaf;
     text-decoration: none;
@@ -55,8 +59,6 @@ nav {
 
 nav a {
     color: #e6edf3;
-    font-weight: 500;
-    font-size: 0.95rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -84,9 +86,10 @@ nav a:hover {
     object-fit: cover;
     border: 3px solid #00ffaa;
     margin-bottom: 15px;
-    margin-top: 320px;
+    margin-top: 150px;
     z-index: 10;
 }
+
 
 .header h1 {
     font-size: 2rem;
@@ -126,7 +129,7 @@ h2 {
 }
 
 .about li::before {
-    content: "💡 ";
+    content: "• ";
 }
 
 /* ---------- Skills Section ---------- */
@@ -201,5 +204,12 @@ footer strong {
 
     .allimg {
         height: 100px;
+    }
+}
+
+@media (min-width: 2560px) and (max-width: 3839px) {
+    .profile-pic {
+        margin-top: 250px;
+        /* add your high-res specific adjustments here */
     }
 }
