@@ -15,7 +15,15 @@ body {
     align-items: center;
     padding-top: 80px;
 }
-
+button{
+    background-color:darkblue;
+    padding: 0 10px 0 10px;
+    border: 5px solid black;
+    border-radius: 20%;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+}
 div{
     padding-top: 80px;
 }
